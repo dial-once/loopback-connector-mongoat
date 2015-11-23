@@ -1,8 +1,18 @@
-## loopback-connector-mongodb
+## loopback-connector-mongoat
 
-MongoDB connector for loopback-datasource-juggler.
+Mongoat connector is the same as MongoDB connector, it only adds new features: 
+
+- Hooks
+- Enabling datetime (createdAt & updatedAt)
+- Transparent usage (raw access to native MongoDB driver)
+- Versioning of documents
+- Oplogs events (not yet)
+
+See [Mongoat](https://www.npmjs.com/package/mongoat) for more details.
+___
 
 Please see the full documentation at [docs.strongloop.com](http://docs.strongloop.com/display/LB/MongoDB+connector).
+
 
 ## Customizing MongoDB configuration for tests/examples
 

@@ -1,11 +1,12 @@
 {
-  "name": "loopback-connector-mongodb",
-  "version": "1.13.0",
-  "description": "LoopBack MongoDB Connector",
+  "name": "loopback-connector-mongoat",
+  "version": "1.0.0",
+  "description": "LoopBack Mongoat Connector",
   "keywords": [
     "StrongLoop",
     "LoopBack",
     "MongoDB",
+    "Mongoat",
     "DataSource",
     "Connector"
   ],
@@ -16,10 +17,10 @@
     "test": "make test"
   },
   "dependencies": {
-    "loopback-connector": "^2.2.0",
-    "mongodb": "~2.0.35",
     "async": "^1.0.0",
-    "debug": "^2.1.1"
+    "debug": "^2.1.1",
+    "loopback-connector": "^2.2.0",
+    "mongoat": "^1.0.14"
   },
   "devDependencies": {
     "benchmark": "^1.0.0",
